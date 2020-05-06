@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="834c24a3-42fe-4d06-b5d1-4d9be4f3a6a1" name="Default Changelist" comment="" />
+    <list default="true" id="834c24a3-42fe-4d06-b5d1-4d9be4f3a6a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guessinggame/PointChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guessinggame/Vowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/guessinggame/PointCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guessing_Game.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuessingGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GuessingGame.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,10 +21,15 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1bBwstrUd0TFtox85Hl0PLtC4Si" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,12 +41,18 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="guessinggame" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PointCheckerTest">
     <configuration name="AgileUHSpellCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GuessingGame" />
       <extension name="coverage">
@@ -48,8 +68,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PointCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GuessingGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guessinggame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guessinggame" />
+      <option name="MAIN_CLASS_NAME" value="guessinggame.PointCheckerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointCheckerTest.pointCheckerReturnsOneForOneVowelAndCorrectWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GuessingGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guessinggame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guessinggame" />
+      <option name="MAIN_CLASS_NAME" value="guessinggame.PointCheckerTest" />
+      <option name="METHOD_NAME" value="pointCheckerReturnsOneForOneVowelAndCorrectWord" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PointCheckerTest" />
+        <item itemvalue="JUnit.PointCheckerTest.pointCheckerReturnsOneForOneVowelAndCorrectWord" />
         <item itemvalue="JUnit.AgileUHSpellCheckerTest" />
       </list>
     </recent_temporary>
@@ -76,37 +129,47 @@
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
     <state x="1753" y="258" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1340@0.23.2560.1340" timestamp="1588120942552" />
-    <state width="1157" height="283" key="GridCell.Tab.0.bottom" timestamp="1588123447385">
-      <screen x="0" y="23" width="2560" height="1342" />
+    <state width="1157" height="275" key="GridCell.Tab.0.bottom" timestamp="1588735260953">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="283" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1588123319177" />
+    <state width="1157" height="275" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588735260953" />
     <state width="1157" height="283" key="GridCell.Tab.0.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1588121981758" />
     <state width="1157" height="283" key="GridCell.Tab.0.bottom/0.23.2560.1342@0.23.2560.1342" timestamp="1588123447385" />
-    <state width="1157" height="283" key="GridCell.Tab.0.center" timestamp="1588123447385">
-      <screen x="0" y="23" width="2560" height="1342" />
+    <state width="1157" height="275" key="GridCell.Tab.0.center" timestamp="1588735260952">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="283" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1588123319176" />
+    <state width="1157" height="275" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588735260952" />
     <state width="1157" height="283" key="GridCell.Tab.0.center/0.23.2560.1340@0.23.2560.1340" timestamp="1588121981757" />
     <state width="1157" height="283" key="GridCell.Tab.0.center/0.23.2560.1342@0.23.2560.1342" timestamp="1588123447385" />
-    <state width="1157" height="283" key="GridCell.Tab.0.left" timestamp="1588123447385">
-      <screen x="0" y="23" width="2560" height="1342" />
+    <state width="1157" height="275" key="GridCell.Tab.0.left" timestamp="1588735260952">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="283" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1588123319175" />
+    <state width="1157" height="275" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588735260952" />
     <state width="1157" height="283" key="GridCell.Tab.0.left/0.23.2560.1340@0.23.2560.1340" timestamp="1588121981757" />
     <state width="1157" height="283" key="GridCell.Tab.0.left/0.23.2560.1342@0.23.2560.1342" timestamp="1588123447385" />
-    <state width="1157" height="283" key="GridCell.Tab.0.right" timestamp="1588123447385">
-      <screen x="0" y="23" width="2560" height="1342" />
+    <state width="1157" height="275" key="GridCell.Tab.0.right" timestamp="1588735260953">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="283" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1588123319176" />
+    <state width="1157" height="275" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588735260953" />
     <state width="1157" height="283" key="GridCell.Tab.0.right/0.23.2560.1340@0.23.2560.1340" timestamp="1588121981757" />
     <state width="1157" height="283" key="GridCell.Tab.0.right/0.23.2560.1342@0.23.2560.1342" timestamp="1588123447385" />
-    <state x="1428" y="123" key="SettingsEditor" timestamp="1588121103634">
-      <screen x="0" y="23" width="2560" height="1340" />
+    <state x="1428" y="123" key="SettingsEditor" timestamp="1588730000631">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
+    <state x="1428" y="123" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1588730000631" />
     <state x="1428" y="123" key="SettingsEditor/0.23.2560.1340@0.23.2560.1340" timestamp="1588121103634" />
-    <state x="1666" y="442" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588121099074">
-      <screen x="0" y="23" width="2560" height="1340" />
+    <state x="1652" y="374" key="com.intellij.ide.util.TipDialog" timestamp="1588729173448">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
+    <state x="1652" y="374" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1588729173448" />
+    <state x="1666" y="441" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588729994841">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1666" y="441" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.2560.1337@0.23.2560.1337" timestamp="1588729994841" />
     <state x="1666" y="442" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.2560.1340@0.23.2560.1340" timestamp="1588121099074" />
   </component>
 </project>
