@@ -1,0 +1,24 @@
+X Canary Test
+
+X spell check for "monkey" returns true
+X spell check for "mon" returns false
+- spell check for "monkey" when there is a network error
+
+- vowel point checker returns zero points for misspelled word
+- vowel point checker returns zero points for no vowel
+- vowel point checker returns one point for one vowel
+- vowel point checker returns two points for two vowels
+- vowel point checker returns three points for three vowels
+
+- vowel point checker returns zero points for misspelled word
+- consonant point checker returns zero points for no consonant
+- consonant point checker returns two point for one consonant
+- consonant point checker returns four points for two consonants
+- consonant point checker returns six points for three consonants
+
+
+// YAGNI
+- word scrambler picks a random word from file
+- word scrambler returns a scrambled word
+ 
+
