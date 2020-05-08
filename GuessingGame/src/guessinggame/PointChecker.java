@@ -1,6 +1,6 @@
 package guessinggame;
 
-import java.awt.*;
+import java.util.Arrays;
 
 public class PointChecker {
   private int score;
@@ -14,24 +14,37 @@ public class PointChecker {
     return spellChecker.checkSpelling(word);
   }
 
-  public boolean isAVowel(Character letter) {
-    return letter == 'A' || letter.equals('E') || letter == 'I' ||
-      letter == 'O' || letter == 'U' || letter == 'a' ||
-      letter == 'e' || letter == 'i' || letter == 'o' ||
-      letter == 'u';
+  public boolean isAVowel(String letter) {
+    return Arrays.stream(Vowels.values())
+      .anyMatch(vowel -> vowel.name().equals(letter));
   }
 
-  public int checkVowels(String word) {
-    if(!checkSpelling(word)) {
-      return 0;
-    }
-
-    for(Character letter : word.toCharArray()) {
-      if(isAVowel(letter)) {
-        score += 1;
+  public void checkVowels(String word) {
+    if(checkSpelling(word)) {
+      for(Character letter : word.toCharArray()) {
+        if(isAVowel(letter.toString().toUpperCase())) {
+          score += 1;
+        }
       }
     }
+  }
 
+  public int getScore() {
     return score;
+  }
+
+  public void checkConsonants(String word) {
+    if(checkSpelling(word)) {
+      for(Character letter : word.toCharArray()) {
+        if(isAConsonant(letter.toString().toUpperCase())) {
+          score += 2;
+        }
+      }
+    }
+  }
+
+  private boolean isAConsonant(String letter) {
+    return Arrays.stream(Consonants.values())
+      .anyMatch(consonant -> consonant.name().equals(letter));
   }
 }

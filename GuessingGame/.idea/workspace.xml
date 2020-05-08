@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="834c24a3-42fe-4d06-b5d1-4d9be4f3a6a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guessinggame/PointChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guessinggame/Vowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/guessinggame/PointCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Guessing_Game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guessinggame/Consonants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GuessingGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GuessingGame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guessinggame/PointChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guessinggame/PointChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/guessinggame/PointCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/guessinggame/PointCheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
       <recent name="guessinggame" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PointCheckerTest">
+  <component name="RunManager" selected="JUnit.PointCheckerTest.pointCheckerReturnsFourPointsForTwoConsonants">
     <configuration name="AgileUHSpellCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GuessingGame" />
       <extension name="coverage">
@@ -83,6 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PointCheckerTest.pointCheckerReturnsFourPointsForTwoConsonants" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GuessingGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guessinggame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guessinggame" />
+      <option name="MAIN_CLASS_NAME" value="guessinggame.PointCheckerTest" />
+      <option name="METHOD_NAME" value="pointCheckerReturnsFourPointsForTwoConsonants" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PointCheckerTest.pointCheckerReturnsOneForOneVowelAndCorrectWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GuessingGame" />
       <extension name="coverage">
@@ -101,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PointCheckerTest.pointCheckerReturnsFourPointsForTwoConsonants" />
         <item itemvalue="JUnit.PointCheckerTest" />
         <item itemvalue="JUnit.PointCheckerTest.pointCheckerReturnsOneForOneVowelAndCorrectWord" />
         <item itemvalue="JUnit.AgileUHSpellCheckerTest" />
@@ -129,43 +143,47 @@
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
     <state x="1753" y="258" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1340@0.23.2560.1340" timestamp="1588120942552" />
-    <state width="1157" height="275" key="GridCell.Tab.0.bottom" timestamp="1588735260953">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1157" height="275" key="GridCell.Tab.0.bottom" timestamp="1588957703323">
+      <screen x="0" y="23" width="2560" height="1342" />
     </state>
     <state width="2518" height="283" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1588123319177" />
-    <state width="1157" height="275" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588735260953" />
+    <state width="1157" height="275" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588874419361" />
+    <state width="1157" height="275" key="GridCell.Tab.0.bottom/0.23.2560.1338@0.23.2560.1338" timestamp="1588736974507" />
     <state width="1157" height="283" key="GridCell.Tab.0.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1588121981758" />
-    <state width="1157" height="283" key="GridCell.Tab.0.bottom/0.23.2560.1342@0.23.2560.1342" timestamp="1588123447385" />
-    <state width="1157" height="275" key="GridCell.Tab.0.center" timestamp="1588735260952">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1157" height="275" key="GridCell.Tab.0.bottom/0.23.2560.1342@0.23.2560.1342" timestamp="1588957703323" />
+    <state width="1157" height="275" key="GridCell.Tab.0.center" timestamp="1588957703322">
+      <screen x="0" y="23" width="2560" height="1342" />
     </state>
     <state width="2518" height="283" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1588123319176" />
-    <state width="1157" height="275" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588735260952" />
+    <state width="1157" height="275" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588874419360" />
+    <state width="1157" height="275" key="GridCell.Tab.0.center/0.23.2560.1338@0.23.2560.1338" timestamp="1588736974507" />
     <state width="1157" height="283" key="GridCell.Tab.0.center/0.23.2560.1340@0.23.2560.1340" timestamp="1588121981757" />
-    <state width="1157" height="283" key="GridCell.Tab.0.center/0.23.2560.1342@0.23.2560.1342" timestamp="1588123447385" />
-    <state width="1157" height="275" key="GridCell.Tab.0.left" timestamp="1588735260952">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1157" height="275" key="GridCell.Tab.0.center/0.23.2560.1342@0.23.2560.1342" timestamp="1588957703322" />
+    <state width="1157" height="275" key="GridCell.Tab.0.left" timestamp="1588957703321">
+      <screen x="0" y="23" width="2560" height="1342" />
     </state>
     <state width="2518" height="283" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1588123319175" />
-    <state width="1157" height="275" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588735260952" />
+    <state width="1157" height="275" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588874419360" />
+    <state width="1157" height="275" key="GridCell.Tab.0.left/0.23.2560.1338@0.23.2560.1338" timestamp="1588736974507" />
     <state width="1157" height="283" key="GridCell.Tab.0.left/0.23.2560.1340@0.23.2560.1340" timestamp="1588121981757" />
-    <state width="1157" height="283" key="GridCell.Tab.0.left/0.23.2560.1342@0.23.2560.1342" timestamp="1588123447385" />
-    <state width="1157" height="275" key="GridCell.Tab.0.right" timestamp="1588735260953">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="1157" height="275" key="GridCell.Tab.0.left/0.23.2560.1342@0.23.2560.1342" timestamp="1588957703321" />
+    <state width="1157" height="275" key="GridCell.Tab.0.right" timestamp="1588957703322">
+      <screen x="0" y="23" width="2560" height="1342" />
     </state>
     <state width="2518" height="283" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1588123319176" />
-    <state width="1157" height="275" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588735260953" />
+    <state width="1157" height="275" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588874419360" />
+    <state width="1157" height="275" key="GridCell.Tab.0.right/0.23.2560.1338@0.23.2560.1338" timestamp="1588736974507" />
     <state width="1157" height="283" key="GridCell.Tab.0.right/0.23.2560.1340@0.23.2560.1340" timestamp="1588121981757" />
-    <state width="1157" height="283" key="GridCell.Tab.0.right/0.23.2560.1342@0.23.2560.1342" timestamp="1588123447385" />
+    <state width="1157" height="275" key="GridCell.Tab.0.right/0.23.2560.1342@0.23.2560.1342" timestamp="1588957703322" />
     <state x="1428" y="123" key="SettingsEditor" timestamp="1588730000631">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1428" y="123" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1588730000631" />
     <state x="1428" y="123" key="SettingsEditor/0.23.2560.1340@0.23.2560.1340" timestamp="1588121103634" />
-    <state x="1652" y="374" key="com.intellij.ide.util.TipDialog" timestamp="1588729173448">
+    <state x="1652" y="374" key="com.intellij.ide.util.TipDialog" timestamp="1588871608502">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1652" y="374" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1588729173448" />
+    <state x="1652" y="374" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1588871608502" />
     <state x="1666" y="441" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588729994841">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>

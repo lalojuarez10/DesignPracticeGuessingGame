@@ -22,26 +22,60 @@ public class PointCheckerTest {
   }
 
   @Test
-  void pointCheckerReturnsFalseForMispelledWord() {
-    when(spellChecker.checkSpelling("Mon")).thenReturn(false);
-
-    assertEquals(false, pointChecker.checkSpelling("Mon"));
-  }
-
-  @Test
   void pointCheckerReturnsZeroForNoVowelAndCorrectWord() {
-    assertEquals(0, pointChecker.checkVowels("crypt"));
+    pointChecker.checkVowels("crypt");
+
+    assertEquals(0, pointChecker.getScore());
   }
 
   @Test
   void pointCheckerReturnsZeroForOneVowelAndMispelledWord() {
     when(spellChecker.checkSpelling("Mon")).thenReturn(false);
 
-    assertEquals(0, pointChecker.checkVowels("Mon"));
+    pointChecker.checkVowels("Mon");
+
+    assertEquals(0, pointChecker.getScore());
   }
 
   @Test
   void pointCheckerReturnsOneForOneVowelAndCorrectWord() {
-    assertEquals(1, pointChecker.checkVowels("Monk"));
+    pointChecker.checkVowels("Monk");
+
+    assertEquals(1, pointChecker.getScore());
+  }
+
+  @Test
+  void pointCheckerReturnsTwoForTwoVowelsAndCorrectWord() {
+    pointChecker.checkVowels("Apple");
+
+    assertEquals(2, pointChecker.getScore());
+  }
+
+  @Test
+  void pointCheckerReturnsThreeForThreeVowelsAndCorrectWord() {
+    pointChecker.checkVowels("Bananna");
+
+    assertEquals(3, pointChecker.getScore());
+  }
+
+  @Test
+  void pointCheckerReturnsZeroForNoConsonant() {
+    pointChecker.checkConsonants("e");
+
+    assertEquals(0, pointChecker.getScore());
+  }
+
+  @Test
+  void pointCheckerReturnsTwoPointsForOneConsonant() {
+    pointChecker.checkConsonants("Ap");
+
+    assertEquals(2, pointChecker.getScore());
+  }
+
+  @Test
+  void pointCheckerReturnsFourPointsForTwoConsonants() {
+    pointChecker.checkConsonants("App");
+
+    assertEquals(4, pointChecker.getScore());
   }
 }

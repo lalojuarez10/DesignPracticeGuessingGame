@@ -4,17 +4,15 @@ X spell check for "monkey" returns true
 X spell check for "mon" returns false
 - spell check for "monkey" when there is a network error
 
-- vowel point checker returns zero points for misspelled word
-- vowel point checker returns zero points for no vowel
-- vowel point checker returns one point for one vowel
-- vowel point checker returns two points for two vowels
-- vowel point checker returns three points for three vowels
+X point checker returns zero points for misspelled word
+X point checker returns zero points for no vowel
+X point checker returns one point for one vowel
+X point checker returns two points for two vowels
+X point checker returns three points for three vowels
+X point checker returns zero points for no consonant
+X point checker returns two points for one consonant
+X point checker returns four points for two consonants
 
-- vowel point checker returns zero points for misspelled word
-- consonant point checker returns zero points for no consonant
-- consonant point checker returns two point for one consonant
-- consonant point checker returns four points for two consonants
-- consonant point checker returns six points for three consonants
 
 
 // YAGNI
