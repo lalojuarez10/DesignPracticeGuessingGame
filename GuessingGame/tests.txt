@@ -16,7 +16,11 @@ X point checker returns four points for two consonants
 
 
 // YAGNI
-- word scrambler picks a random word from file
-- word scrambler returns a scrambled word
+X word scrambler picks a random word from file
+X word scrambler returns a scrambled word
+X present the scrambled word to the player
+X get guess from the player
+- get the score for the player based off the guess
+
  
 

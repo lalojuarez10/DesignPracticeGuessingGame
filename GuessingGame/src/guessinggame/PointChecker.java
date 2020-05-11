@@ -6,7 +6,7 @@ public class PointChecker {
   private int score;
   private SpellChecker spellChecker;
 
-  PointChecker(SpellChecker aSpellChecker) {
+  public PointChecker(SpellChecker aSpellChecker) {
     spellChecker = aSpellChecker;
   }
 
